@@ -139,11 +139,13 @@ STATICFILES_DIRS = [
 MEDIA_URL = '/images/'
 # django_heroku.settings(locals())
 
-STATICFILES_DIRS = [
-    BASE_DIR / 'static'
-]
+# STATICFILES_DIRS = [
+#     BASE_DIR / 'static'
+# ]
 
 MEDIA_ROOT = BASE_DIR / 'static/images'
+
+# STATIC_ROOT = 'C:/Users/Admin/Desktop/ALX/Den1/static'
 
 
 # Default primary key field type
